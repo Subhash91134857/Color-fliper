@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Hero{
+    background-color: aliceblue;
+
+    box-shadow: 2px 2px 2px 2px rgb(82, 80, 80);
+}
+
+ul{
+    display: flex;
+    margin: 1px;
+    list-style: none;
+}
+ul li {
+    margin:9px;
+}
+.main{
+    /* width: 100vmin; */
+    margin-top:0 auto;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    background-color: black;
+    /* position: absolute; */
+    /* top:50%; */
+    /* transform: translate(50%,50%); */
+}
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #262326 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #383238;
+	display:inline-block;
+	cursor:pointer;
+	color:#495a5e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #262326 5%, #ededed 100%);
+	background-color:#262326;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
